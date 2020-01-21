@@ -74,6 +74,7 @@ b = list(map(int, input().split()))
 bm = np.array(b).reshape(Rb,1)
 
 print("\nVector b is equals to:\n\n",bm,)
+
 if D == "Y":
     file.write('\n\nVector b is equals to:\n\n')
     file.write(str(bm))
@@ -102,6 +103,7 @@ else:
 var = list(map(str, input().split()))
 var1 = np.array(var).reshape(x,1)
 print("\nVector x is equals to:\n\n",var1,)
+
 if D == "Y":
     file.write('\n\nVector x is equals to:\n\n ')
     file.write(str(var1))
@@ -112,6 +114,7 @@ else:
 x = np.linalg.solve(matrice, bm)
 sol = zip(var, x)
 print("\nThe solutions of the Linear Equation System are:\n\n",list(sol),)
+
 if D == "Y":
     file.write('\n\nThe solutions of the Linear Equation System are:\n\n')
     file.write(str(x))

@@ -1,25 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# <center><i><img src="https://www.python.org/static/apple-touch-icon-72x72-precomposed.png"></i></center>
-
-# # <center>Linear Algebra Fundamentals in Python by <i><font color="blue">Koliou Georgios</font></i></center>
-
-# ## <h2>The script calculates:<br><br><ul><li><a href="https://en.wikipedia.org/wiki/System_of_linear_equations">Square system of linear equations.</a></li>
-
-# In[ ]:
-
-
 print("Author: Georgios Koliou\nContact: georgios.koliou@gmail.com\n")
 
 
-# In[ ]:
-
-
 D = str(input("\n\n Do you want to save this? Type Y for Yes or N for No: "))
-
-
-# In[ ]:
 
 
 if D == "Y":
@@ -29,29 +14,16 @@ else:
     print("\nOk! Nothing to save!")
 
 
-# In[ ]:
-
-
 if D == "Y":
     file.write("Author: Georgios Koliou\nContact: georgios.koliou@gmail.com\n\n")
 else:
     print("")
 
 
-# In[ ]:
-
-
 import numpy as np
-
-
-# In[ ]:
-
 
 R = int(input("\nGive number of rows: "))
 C = int(input("\nGive number of columns: "))
-
-
-# In[ ]:
 
 
 if R == C:
@@ -78,9 +50,6 @@ if D == "Y":
     file.write(str(matrice))
 else:
     print("")
-
-
-# In[ ]:
 
 
 Rb = int(input("\nGive number of rows of column b:\n"))
@@ -112,9 +81,6 @@ else:
     print("")
 
 
-# In[ ]:
-
-
 x = int(input("\nNumber of variables: "))
 
 if x == R:
@@ -143,9 +109,6 @@ else:
     print("")
 
 
-# In[ ]:
-
-
 x = np.linalg.solve(matrice, bm)
 sol = zip(var, x)
 print("\nThe solutions of the Linear Equation System are:\n\n",list(sol),)
@@ -157,10 +120,5 @@ else:
     print("")
 
 
-# In[ ]:
-
 
 input('\n\n\nPress ENTER to exit')
-
-
-# <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCFGQd5PSirHFeZxvOpSLxkQ" title="YouTube"><i><img src="https://www.youtube.com/yts/img/favicon_32-vflOogEID.png"></i></a></p>

@@ -56,7 +56,7 @@ Rb = int(input("\nGive number of rows of column b:\n"))
 
 if Rb == C:
     print("\nInsert the elements of row b separated by space:\n")
-elif D == 'S': 
+elif D == 'Y': 
     file.close()
     print("The number of rows of vector b must be equals with number of column of matrix A,",Rb,"is not equals to",C,)
     input("Press ENTER to exit and delete the file")

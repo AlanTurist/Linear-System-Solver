@@ -1,5 +1,5 @@
-# Linear-Sistem-Solver
-Square Linear Sistem Solver (Linear Algebra)
+# Linear-System-Solver
+Square Linear System Solver (Linear Algebra)
 # <center><img src="https://www.python.org/static/apple-touch-icon-72x72-precomposed.png"></center>
 # <h1> Linear-Algebra-Calculator</h1>
 ## <h2>The script calculates:<br><br><ul><li><a href="https://en.wikipedia.org/wiki/System_of_linear_equations">System Of Linear Equations.</a></li>

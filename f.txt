@@ -1,0 +1,28 @@
+Author: Georgios Koliou
+Contact: georgios.koliou@gmail.com
+
+
+
+The matrix of the linear equations is:
+
+[[3 0 0]
+ [1 2 0]
+ [0 1 2]]
+
+Vector b is equals to:
+
+[[30]
+ [20]
+ [ 9]]
+
+Vector x is equals to:
+
+ [['x']
+ ['y']
+ ['z']]
+
+The solutions of the Linear Equation System are:
+
+[[10.]
+ [ 5.]
+ [ 2.]]
